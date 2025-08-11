@@ -26,11 +26,11 @@ paginatePath = "page"
 
 [params]
   description = ""
-  author = "Chaoming Li"
+  author = "EncinaLabs LLC"
   logo = "/images/logo.svg"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
-  
+
   # Global CTA Configuration
   [params.cta]
     enable = true
@@ -45,7 +45,7 @@ paginatePath = "page"
     [params.cta.secondary_button]
       text = "Book Demo"
       url = "/demo"
-  
+
   # Social Media Links
   [params.social]
     linkedin = "https://linkedin.com/in/chaomingli"
@@ -54,26 +54,26 @@ paginatePath = "page"
     facebook = "https://facebook.com/lichaoming"
     instagram = "https://instagram.com/lichaoming"
     github = "https://github.com/chaoming"
-  
+
   # Footer Configuration
   [params.footer]
     column_1_title = "Features"
     column_2_title = "COMPANY"
     column_3_title = "LEGAL"
-  
+
   [params.header]
     # Header background and border styles (optional)
     background = "bg-white/80 backdrop-blur-sm"
     border = "border-b border-gray-100"
-    
+
     # Logo configuration
     [params.header.logo]
       src = "/images/logo.svg"
-    
+
     # Menu configuration
     [params.header.menu]
       spacing = "space-x-8"
-      
+
       # Dropdown menu configuration
       [params.header.menu.dropdown]
         width = "w-72"
@@ -86,14 +86,14 @@ paginatePath = "page"
         text_color = "text-gray-700"
         hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
-    
+
     # Button configuration
     [params.header.buttons]
       # Sign In button
       [params.header.buttons.signIn]
         text = "Sign in"
         url = "/signin"
-      
+
       # Get Started button
       [params.header.buttons.getStarted]
         text = "Get Started"
@@ -104,11 +104,11 @@ paginatePath = "page"
     enable = true
     title = "Latest Articles"
     subtitle = "Learn more about web development and best practices"
-    
+
     # Blog CTA configuration
     [params.blog.cta]
       enable = true  # Enable/disable CTA in blog posts
-    
+
     # Sidebar configuration
     [params.blog.sidebar]
       # Recent articles section
@@ -116,12 +116,12 @@ paginatePath = "page"
         enable = true
         title = "Recent Articles"
         count = 5
-      
+
       # Categories section
       [params.blog.sidebar.categories]
         enable = true
         title = "Categories"
-      
+
       # Tags section
       [params.blog.sidebar.tags]
         enable = true

@@ -9,5 +9,5 @@ features = ["responsive", "tailwind", "modern design"]
 min_version = "0.80.0"
 
 [author]
-  name = "Chaoming Li"
+  name = "EncinaLabs LLC"
   homepage = "https://chaoming.li"
